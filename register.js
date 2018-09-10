@@ -1,2 +1,5 @@
 require("babel-register");
-require("./index.js");
+var uncompiledFile = process.argv[2];
+
+
+require(uncompiledFile);
